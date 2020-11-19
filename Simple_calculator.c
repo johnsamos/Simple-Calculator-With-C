@@ -2,9 +2,9 @@
 int main(void) {
     char controller;
     double num1, num2;
-    printf("Enter an operator (+, -, *, /): ");
+    printf("Insert an Number (+, -, *, /): ");
     scanf("%c", &controller);
-    printf("Enter two operands: ");
+    printf("Insert Two Numbers: ");
     scanf("%lf %lf", &num1, &num2);
 
     switch (controller) {
